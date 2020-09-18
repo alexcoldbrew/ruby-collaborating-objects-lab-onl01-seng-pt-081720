@@ -22,7 +22,7 @@ class Artist
   end
 
   def self.find_or_create_by_name(name)
-    
+    self.all.detect 
   end
   
   def print_songs #instance method iterates through @songs of an instance of Artist
